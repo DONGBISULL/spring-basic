@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+// 실제 => 개발 : 테스트 코드 60~70% production 코드 : 30~40%
 
 @SpringBootTest // 스프링 부트 테스트
 @Transactional // transactional 커밋하지 않으면 반영 안됨=> 테스트 실행 후 롤백
